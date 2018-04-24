@@ -1,0 +1,55 @@
+.second-row {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+  margin: 0;
+}
+.second {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 0.25em solid gray;
+}
+
+.hours-row {
+  margin: 0;
+  background-color: darkred;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+.hours {
+  height: 2em;
+  width: 20%;
+  border: 0.25em solid gray;
+}
+
+.minutes-row {
+  margin: 0;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+.five-minutes {
+  display: inline-block;
+  height: 2em;
+  width: 4%;
+  border: 0.25em solid gray;
+}
+.minutes {
+  display: inline-block;
+  height: 2em;
+  width: 20%;
+  border: 0.25em solid gray;
+}
+.O {
+  background-color: lightgray;
+}
+.Y {
+  background-color: yellow;
+}
+.R {
+  background-color: red;
+}

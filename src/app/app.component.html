@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<p>Current date and time is {{date}}</p>
+
+<p class="second-row">
+  <span [attr.class]="second+' second'"></span>
+</p>
+
+<p class="hours-row">
+  <span *ngFor="let result of fiveHours.split('')" [attr.class]="result+' hours'"></span>
+</p>
+
+<p class="hours-row">
+  <span *ngFor="let result of singleHours.split('')" [attr.class]="result+' hours'"></span>
+</p>
+
+
+<p class="minutes-row">
+  <span *ngFor="let result of fiveMinutes.split('')" [attr.class]="result+' five-minutes'"></span>
+</p>
+
+<p class="minutes-row">
+  <span *ngFor="let result of singleMinutes.split('')" [attr.class]="result+' minutes'"></span>
+</p>
+
+
