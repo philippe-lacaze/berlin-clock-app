@@ -346,10 +346,10 @@ MIT
 MIT
 MIT
 
-@angular/forms@6.0.3
+@angular/core@6.0.3
 MIT
 MIT
 
-@angular/core@6.0.3
+@angular/forms@6.0.3
 MIT
 MIT
