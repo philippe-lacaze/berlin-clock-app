@@ -14,8 +14,7 @@
         "/main.d1c8363d7cb3996d25c7.js",
         "/polyfills.41618f1062d2aecda12f.js",
         "/runtime.99a7cea37a4f533fc45d.js",
-        "/styles.5512f882d1b8f5b8b97b.css",
-        "/ngsw.json"
+        "/styles.5512f882d1b8f5b8b97b.css"
       ],
       "patterns": []
     },
