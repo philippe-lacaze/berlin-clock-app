@@ -5,7 +5,7 @@ var filesToCache = [
     '/',
     '/index.html',
     '/css/styles.css',
-    '/js/app.js',
+    '/app.js',
     '/images/touch/chrome-touch-icon-192x192.png',
     '/images/background-couple@4x.jpg'
 ];
