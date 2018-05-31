@@ -2,12 +2,12 @@ var CACHE_NAME = 'sw-ex';
 var CACHE_VERSION = 7;
 
 var filesToCache = [
-    '/berlin-clock/msa/',
-    '/berlin-clock/msa/index.html',
-    '/berlin-clock/msa/css/styles.css',
-    '/berlin-clock/msa/app.js',
-    '/berlin-clock/msa/images/touch/chrome-touch-icon-192x192.png',
-    '/berlin-clock/msa/images/background-couple@4x.jpg'
+    '/berlin-clock-app/msa/',
+    '/berlin-clock-app/msa/index.html',
+    '/berlin-clock-app/msa/css/styles.css',
+    '/berlin-clock-app/msa/app.js',
+    '/berlin-clock-app/msa/images/touch/chrome-touch-icon-192x192.png',
+    '/berlin-clock-app/msa/images/background-couple@4x.jpg'
 ];
 
 self.oninstall = function (event) {
