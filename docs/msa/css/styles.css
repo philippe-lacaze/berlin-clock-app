@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1em solid rosybrown;
+    color: darkseagreen;
+    padding: 0.5em;
+    background-color: white;
+}
+
+.moi {
+    display: inline-block;
+    background-color: red;
+    transform: rotatez(-10deg) translatey(-0.25em);
+}
+
+#content {
+
+    margin: auto;
+
+    background-image: url('../images/background-couple@4x.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
+    padding-bottom: 50%;
+    text-align: center;
+}
+
+#content > p {
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    width: 40%;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+
