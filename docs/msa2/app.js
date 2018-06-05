@@ -25,6 +25,6 @@ if ('serviceWorker' in navigator) {
   }
 }
 
-window.add('load', function () {
+window.addEventListener('load', function () {
   window.location = "https://monespaceprive.msa.fr";
 })
