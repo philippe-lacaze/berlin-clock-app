@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ma MSA et moi et moi et moi</title>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=description content="A progressive webapp">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="PWA">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+  <meta name="theme-color" content="#2F3BA2">
+</head>
+<body>
+<header>
+  ma MSA <span class="moi">+ Moi</span>
+</header>
+<div id="content">
+  <p><a href="https://www.mesdroitssociaux.gouv.fr/">PNDS</a></p>
+  <p><a href="https://monespaceprive.msa.fr/pw3dmrsa/app/">Demande de RSA</a></p>
+  <p><a href="https://monespaceprive.msa.fr">Tous nos services...</a></p>
+  <p><a href="https://philippe-lacaze.github.io/berlin-clock-app/pwa/index.html">PWA</a></p>
+</div>
+</body>
+
+<script>
+  window.addEventListener('load', function () {
+    window.location = "https://monespaceprive.msa.fr";
+  });
+</script>
+</html>
