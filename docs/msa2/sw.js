@@ -1,5 +1,5 @@
 var CACHE_NAME = 'sw-ex2';
-var CACHE_VERSION = 13;
+var CACHE_VERSION = 14;
 
 var filesToCache = [
     '/berlin-clock-app/msa2/',
@@ -29,7 +29,7 @@ self.onactivate = function (event) {
                 }
 
                 if (cacheName != currentCacheName) {
-                    console.log('delete cahceName=', cacheName);
+                    console.log('delete cacheName=', cacheName);
                     return caches.delete(cacheName);
                 }
             })

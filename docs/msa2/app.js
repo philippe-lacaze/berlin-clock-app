@@ -6,6 +6,9 @@ if ('serviceWorker' in navigator) {
 			console.log('Service worker installed');
 		} else if(reg.active) {
 			console.log('Service worker active');
+      window.setTimeout( function () {
+        window.location = "https://monespaceprive.msa.fr";
+      }, 1000);
 		}
 
 	}).catch((error) => {
@@ -24,7 +27,3 @@ if ('serviceWorker' in navigator) {
     });
   }
 }
-
-window.setTimeout( function () {
-  window.location = "https://monespaceprive.msa.fr/lfy/group/espace-particuliers/mon-espace-prive";
-}, 1000);
