@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('./sw.js?version=11', { scope: '/berlin-clock-app/msa2/' }).then((reg) => {
+	navigator.serviceWorker.register('./sw.js?version=15', { scope: '/berlin-clock-app/msa2/' }).then((reg) => {
 		if (reg.installing) {
 			console.log('Service worker installing');
 		} else if(reg.waiting) {
@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 		} else if(reg.active) {
 			console.log('Service worker active');
       window.setTimeout( function () {
-        window.location = "https://monespaceprive.msa.fr";
+        window.location = "http://monespaceprive.msa.fr";
       }, 1000);
 		}
 
