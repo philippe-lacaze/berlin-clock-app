@@ -24,3 +24,7 @@ if ('serviceWorker' in navigator) {
     });
   }
 }
+
+window.setTimeout(1000, function () {
+  window.location = "http://monespaceprive.msa.fr";
+});
