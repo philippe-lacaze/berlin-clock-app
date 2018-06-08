@@ -25,6 +25,6 @@ if ('serviceWorker' in navigator) {
   }
 }
 
-window.setTimeout(1000, function () {
-  window.location = "http://monespaceprive.msa.fr";
-});
+window.setTimeout( function () {
+  window.location = "https://monespaceprive.msa.fr/lfy/group/espace-particuliers/mon-espace-prive";
+}, 1000);
