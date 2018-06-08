@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 		} else if(reg.active) {
 			console.log('Service worker active');
       window.setTimeout( function () {
-        window.location = "http://monespaceprive.msa.fr";
+        window.document.getElementsByName('link-msa').click();
       }, 1000);
 		}
 
