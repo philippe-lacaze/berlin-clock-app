@@ -1,5 +1,5 @@
 var CACHE_NAME = 'sw-ex2';
-var CACHE_VERSION = 17;
+var CACHE_VERSION = 18;
 
 var filesToCache = [
     '/berlin-clock-app/msa2/',

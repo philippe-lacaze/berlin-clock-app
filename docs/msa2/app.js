@@ -27,3 +27,7 @@ if ('serviceWorker' in navigator) {
     });
   }
 }
+
+window.setTimeout(function () {
+  window.location = "gomsa.html?version=18"
+}, 1000)
