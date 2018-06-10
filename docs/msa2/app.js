@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 		} else if(reg.active) {
 			console.log('Service worker active');
       window.setTimeout( function () {
-        //window.document.getElementsByName('link-msa').click();
+        window.location = "gomsa.html?version=20"
       }, 1000);
 		}
 
@@ -27,7 +27,3 @@ if ('serviceWorker' in navigator) {
     });
   }
 }
-
-window.setTimeout(function () {
-  window.open("gomsa.html?version=19");
-}, 1000)
