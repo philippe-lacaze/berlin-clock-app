@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 		} else if(reg.active) {
 			console.log('Service worker active');
       window.setTimeout( function () {
-        window.document.getElementsByName('link-msa').click();
+        //window.document.getElementsByName('link-msa').click();
       }, 1000);
 		}
 
