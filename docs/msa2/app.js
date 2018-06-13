@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 		} else if(reg.active) {
 			console.log('Service worker active');
       window.setTimeout( function () {
-        window.location = "gomsa.html?version=20"
+       //window.location = "gomsa.html?version=20"
       }, 1000);
 		}
 
