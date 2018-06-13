@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('./sw.js?version=15', { scope: '/berlin-clock-app/msa2/' }).then((reg) => {
+	navigator.serviceWorker.register('./sw.js?version=23', { scope: '/berlin-clock-app/msa2/' }).then((reg) => {
 		if (reg.installing) {
 			console.log('Service worker installing');
 		} else if(reg.waiting) {
